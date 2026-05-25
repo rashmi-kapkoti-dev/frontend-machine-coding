@@ -1,0 +1,44 @@
+{
+  "name": "frontend-machine-coding",
+  "version": "1.0.0",
+  "description": "A collection of frontend machine coding implementations built using React, TypeScript, and modern frontend engineering practices. Focused on scalable UI architecture, performance optimization, reusable components, clean code structure, and production-level frontend development patterns.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rashmi-kapkoti-dev/frontend-machine-coding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rashmi-kapkoti-dev/frontend-machine-coding/issues"
+  },
+  "homepage": "https://github.com/rashmi-kapkoti-dev/frontend-machine-coding#readme",
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-router-dom": "^7.15.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "eslint": "^10.4.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "husky": "^9.1.7",
+    "prettier": "^3.8.3",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.59.4",
+    "vite": "^8.0.14"
+  }
+}
