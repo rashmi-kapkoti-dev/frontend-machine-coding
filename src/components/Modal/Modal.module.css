@@ -1,0 +1,41 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+.modalBox {
+  background: white;
+  padding: 25px 30px 60px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px gray;
+  max-width: 420px;
+  width: 100%;
+}
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  margin-bottom: 30px;
+}
+.modalHeader h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: rgb(29, 27, 32);
+}
+.modalBox p {
+  margin: 10px 0 0;
+  color: rgb(29, 27, 32);
+}
+.btnClose {
+  border: none;
+  cursor: pointer;
+  background: none;
+  color: rgb(68, 64, 75);
+}

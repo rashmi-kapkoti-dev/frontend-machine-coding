@@ -1,0 +1,27 @@
+.container {
+  padding: 24px 16px;
+  color: rgb(29, 27, 32);
+  background: rgb(243, 237, 247);
+}
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.paginationFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22vh;
+  padding: 24px 0;
+  width: 100%;
+}
+@media (min-width: 960px) {
+  .container {
+    height: 100%;
+  }
+}

@@ -1,0 +1,33 @@
+.cardContent {
+  display: flex;
+  flex-direction: row;
+  padding: 22px 12px;
+  border-radius: 12px;
+  background: rgb(248, 248, 248);
+  border: 1px solid rgb(248, 237, 237);
+  box-shadow: 0px 4px 8px gray;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.cardName {
+  font-weight: 500;
+  color: rgb(29, 27, 32);
+}
+.cardEmail {
+  margin-top: 8px;
+  font-size: 14px;
+  color: rgb(73, 69, 79);
+  word-break: break-word;
+}
+.btn {
+  background: rgb(103, 80, 164);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 8px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+.btn:hover {
+  background: rgb(124, 107, 176);
+}
