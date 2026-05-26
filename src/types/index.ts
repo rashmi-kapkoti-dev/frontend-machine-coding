@@ -8,3 +8,16 @@ export type User = {
     address: string;
   };
 };
+
+export type FormValues = {
+  firstName: string;
+  lastName: string;
+  email: string;
+  phoneNumber: string;
+};
+
+export type FieldConfig = {
+  name: keyof FormValues;
+  label: string;
+  type?: string;
+};

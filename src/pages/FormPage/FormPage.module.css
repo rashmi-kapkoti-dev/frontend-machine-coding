@@ -1,0 +1,37 @@
+.successContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+  min-height: 100vh;
+  background: rgb(243, 237, 247);
+}
+
+.successCard {
+  background: white;
+  box-shadow: 0px 4px 8px rgb(230, 211, 211);
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 16px;
+  background: rgb(243, 237, 247);
+}
+
+.formCard {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgb(230, 211, 211);
+  width: 100%;
+  max-width: 420px;
+}

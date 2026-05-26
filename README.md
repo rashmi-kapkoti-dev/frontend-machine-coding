@@ -11,8 +11,9 @@ npm run dev
 
 Opens at http://localhost:3000
 
-Client pagination: open `/` after `npm run dev`.
-Server pagination: open `/server-pagination`.
+- Client pagination: open `/` after `npm run dev`.
+- Server pagination: open `/server-pagination`.
+- Server form: open `/form`.
 
 ## Scripts
 
