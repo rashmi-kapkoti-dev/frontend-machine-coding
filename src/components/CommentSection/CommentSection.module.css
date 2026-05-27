@@ -49,4 +49,8 @@
 }
 .hidebtn {
   visibility: hidden;
+  pointer-events: none;
+}
+.btn:disabled {
+  cursor: default;
 }

@@ -3,7 +3,17 @@ import style from './CommentSection.module.css';
 import { useState } from 'react';
 
 const CommentSection = ({ data }: CommentSectionProps) => {
-  const [selectedId, setSelectedId] = useState<number | null>(null);
+  const [selectedIds, setSelectedIds] = useState<number[]>([]);
+
+  const handeleExpand = (id: number) => {
+    setSelectedIds((prev) => {
+      if (prev.includes(id)) {
+        return prev.filter((item) => item !== id);
+      }
+      return [...prev, id];
+    });
+  };
+
   return (
     <>
       {data.map((comment) => (
@@ -11,11 +21,9 @@ const CommentSection = ({ data }: CommentSectionProps) => {
           <div className={style.userContainer}>
             <button
               className={`${style.btn} ${comment.replies.length === 0 ? style.hidebtn : ''}`}
-              onClick={() =>
-                setSelectedId(selectedId == comment.id ? null : comment.id)
-              }
+              onClick={() => handeleExpand(comment.id)}
             >
-              {selectedId == comment.id ? '-' : '+'}
+              {selectedIds.includes(comment.id) ? '-' : '+'}
             </button>
             <img
               className={style.img}
@@ -25,9 +33,9 @@ const CommentSection = ({ data }: CommentSectionProps) => {
             <span className={style.userName}>{comment.userName}</span>
           </div>
           <p className={style.comment}>{comment.comment}</p>
-          {selectedId == comment.id && (
+          {selectedIds.includes(comment.id) && (
             <div className={style.nestedComment}>
-              <CommentSection data={comment.replies} />{' '}
+              <CommentSection data={comment.replies} />
             </div>
           )}
         </div>
