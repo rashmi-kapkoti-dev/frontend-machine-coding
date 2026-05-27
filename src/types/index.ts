@@ -21,3 +21,11 @@ export type FieldConfig = {
   label: string;
   type?: string;
 };
+
+export type CommentType = {
+  id: number;
+  comment: string;
+  userUrl: string;
+  userName: string;
+  replies: CommentType[];
+};

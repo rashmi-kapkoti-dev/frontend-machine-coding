@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.userContainer {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.userName {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(22, 21, 21);
+}
+.comment {
+  font-size: 16px;
+  color: rgb(22, 21, 21);
+  padding-left: 54px;
+}
+.nestedComment {
+  position: relative;
+  padding-left: 26px;
+}
+.nestedComment::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background: rgb(218, 209, 209);
+}
+.nestedComment:hover::before {
+  background: rgb(170, 168, 168);
+}
+.btn {
+  border-radius: 50%;
+  border: 1px solid rgb(209, 194, 194);
+  padding: 0 4px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: rgb(241, 222, 222);
+}
+.hidebtn {
+  visibility: hidden;
+}

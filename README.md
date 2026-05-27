@@ -16,6 +16,7 @@ Opens at http://localhost:3000
 - Custom form: open `/form`.
 - Acronym Finder: open `/acronym-finder`.
 - Accordion Finder: open `/accordion`.
+- Nested Comments: open `/comments`.
 
 ## Scripts
 
