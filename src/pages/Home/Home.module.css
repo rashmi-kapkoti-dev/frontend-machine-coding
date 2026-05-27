@@ -1,11 +1,16 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   padding: 24px 16px;
   color: rgb(29, 27, 32);
   background: rgb(243, 237, 247);
 }
 .cardContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: 100%;
+  min-width: 0;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
   gap: 18px;
   justify-content: center;
   align-items: center;
@@ -14,9 +19,11 @@
 }
 .paginationFooter {
   display: flex;
+  flex-shrink: 0;
   justify-content: center;
   align-items: center;
-  margin-top: 22vh;
+  margin-top: auto;
+  margin-bottom: 12%;
   padding: 24px 0;
   width: 100%;
 }
