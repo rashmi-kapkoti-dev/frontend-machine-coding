@@ -15,6 +15,7 @@ Opens at http://localhost:3000
 - Server pagination: open `/server-pagination`.
 - Custom form: open `/form`.
 - Acronym Finder: open `/acronym-finder`.
+- Accordion Finder: open `/accordion`.
 
 ## Scripts
 
