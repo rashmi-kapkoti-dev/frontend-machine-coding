@@ -17,6 +17,7 @@ Opens at http://localhost:3000
 - Acronym Finder: open `/acronym-finder`.
 - Accordion Finder: open `/accordion`.
 - Nested Comments: open `/comments`.
+- Infinite Scroll: open `/infinite-scroll`.
 
 ## Scripts
 
