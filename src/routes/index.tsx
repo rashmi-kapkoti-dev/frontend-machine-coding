@@ -6,6 +6,7 @@ import AcronymFinder from '../pages/AcronymFinder';
 import AccordionPage from '../pages/AccordionPage';
 import NestedComments from '../pages/NestedComments';
 import InfiniteScroll from '../pages/InfiniteScroll';
+import ImageSlider from '../pages/ImageSlider';
 
 const Router = () => {
   return (
@@ -18,6 +19,7 @@ const Router = () => {
         <Route path="/accordion" element={<AccordionPage />} />
         <Route path="/comments" element={<NestedComments />} />
         <Route path="/infinite-scroll" element={<InfiniteScroll />} />
+        <Route path="/image-slider" element={<ImageSlider />} />
       </Routes>
     </BrowserRouter>
   );
