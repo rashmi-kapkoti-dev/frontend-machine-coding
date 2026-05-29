@@ -18,6 +18,7 @@ Opens at http://localhost:3000
 - Accordion Finder: open `/accordion`.
 - Nested Comments: open `/comments`.
 - Infinite Scroll: open `/infinite-scroll`.
+- Image Slider: open `/image-slider`.
 
 ## Scripts
 
