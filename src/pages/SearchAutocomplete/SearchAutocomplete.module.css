@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 24px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 640px;
+}
+.label {
+  font-weight: 500;
+  color: rgb(29, 27, 32);
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+.input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(238, 223, 223);
+  outline: none;
+  border-radius: 8px;
+}
+.input:focus {
+  border: 1px solid rgb(103, 80, 164);
+}
+.list {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: white;
+  border: 1px solid rgb(238, 223, 223);
+  border-radius: 8px;
+}
+.listItem {
+  padding: 12px;
+  cursor: pointer;
+}
+.listItem:hover {
+  background: rgb(245, 240, 255);
+}
+.result {
+  min-height: 1.5rem;
+  margin: 0;
+}
+.resultEmpty {
+  visibility: hidden;
+}
+.emailText {
+  color: rgb(103, 80, 164);
+}
