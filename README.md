@@ -20,6 +20,7 @@ Opens at http://localhost:3000
 - Infinite Scroll: open `/infinite-scroll`.
 - Image Slider: open `/image-slider`.
 - Search Autocomplete: open `/search-autocomplete`.
+- Accessibility: open `/accessibility`.
 
 ## Scripts
 

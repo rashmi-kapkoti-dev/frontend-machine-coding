@@ -8,6 +8,7 @@ import NestedComments from '../pages/NestedComments';
 import InfiniteScroll from '../pages/InfiniteScroll';
 import ImageSlider from '../pages/ImageSlider';
 import SearchAutocomplete from '../pages/SearchAutocomplete';
+import Accessibility from '../pages/Accessibility';
 
 const Router = () => {
   return (
@@ -22,6 +23,7 @@ const Router = () => {
         <Route path="/infinite-scroll" element={<InfiniteScroll />} />
         <Route path="/image-slider" element={<ImageSlider />} />
         <Route path="/search-autocomplete" element={<SearchAutocomplete />} />
+        <Route path="/accessibility" element={<Accessibility />} />
       </Routes>
     </BrowserRouter>
   );
