@@ -1,0 +1,7 @@
+{
+  "language": "भाषा",
+  "nameLabel": "अपना नाम दर्ज करें",
+  "submit": "सेव करें",
+  "nameRequired": "नाम आवश्यक है",
+  "greeting": "नमस्ते, {{name}}"
+}

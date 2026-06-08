@@ -1,0 +1,7 @@
+{
+  "language": "Language",
+  "nameLabel": "Enter your name",
+  "submit": "Save",
+  "nameRequired": "Name is required",
+  "greeting": "Hello, {{name}}"
+}

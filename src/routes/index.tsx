@@ -9,6 +9,7 @@ import InfiniteScroll from '../pages/InfiniteScroll';
 import ImageSlider from '../pages/ImageSlider';
 import SearchAutocomplete from '../pages/SearchAutocomplete';
 import Accessibility from '../pages/Accessibility';
+import Localization from '../pages/Localization';
 
 const Router = () => {
   return (
@@ -24,6 +25,7 @@ const Router = () => {
         <Route path="/image-slider" element={<ImageSlider />} />
         <Route path="/search-autocomplete" element={<SearchAutocomplete />} />
         <Route path="/accessibility" element={<Accessibility />} />
+        <Route path="/localization" element={<Localization />} />
       </Routes>
     </BrowserRouter>
   );
