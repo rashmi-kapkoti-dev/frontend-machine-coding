@@ -21,6 +21,7 @@ Opens at http://localhost:3000
 - Image Slider: open `/image-slider`.
 - Search Autocomplete: open `/search-autocomplete`.
 - Accessibility: open `/accessibility`.
+- Localization: open `/localization`.
 
 ## Scripts
 
