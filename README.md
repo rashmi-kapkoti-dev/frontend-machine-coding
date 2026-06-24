@@ -22,6 +22,7 @@ Opens at http://localhost:3000
 - Search Autocomplete: open `/search-autocomplete`.
 - Accessibility: open `/accessibility`.
 - Localization: open `/localization`.
+- Context API: open `/theme-demo`.
 
 ## Scripts
 

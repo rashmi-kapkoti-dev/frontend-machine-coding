@@ -1,6 +1,27 @@
 * {
   box-sizing: border-box;
 }
+
+[data-theme='light'] {
+  --color-bg: rgb(243, 237, 247);
+  --color-text: rgb(29, 27, 32);
+  --color-surface: rgb(248, 248, 248);
+  --color-primary: rgb(103, 80, 164);
+  --color-primary-hover: rgb(124, 107, 176);
+  --color-muted: rgb(73, 69, 79);
+  --color-border: rgb(238, 223, 223);
+}
+
+[data-theme='dark'] {
+  --color-bg: rgb(18, 18, 20);
+  --color-text: rgb(230, 225, 229);
+  --color-surface: rgb(33, 33, 36);
+  --color-primary: rgb(124, 107, 176);
+  --color-primary-hover: rgb(147, 132, 196);
+  --color-muted: rgb(147, 143, 153);
+  --color-border: rgb(58, 56, 62);
+}
+
 html,
 body,
 #root {
@@ -9,4 +30,6 @@ body,
 
 body {
   margin: 0;
+  color: var(--color-text);
+  background: var(--color-bg);
 }

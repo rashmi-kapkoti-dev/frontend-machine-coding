@@ -1,7 +1,12 @@
+import { ThemeProvider } from './context/ThemeContext';
 import Router from './routes';
 
 const App = () => {
-  return <Router />;
+  return (
+    <ThemeProvider>
+      <Router />
+    </ThemeProvider>
+  );
 };
 
 export default App;
